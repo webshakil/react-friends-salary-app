@@ -10,15 +10,7 @@ const Friends = () => {
   //const first10 = data.slice(0, 10);
   const [friend, setFriend] = useState(10);
 
-  return (
-    <div>
-      <ul>
-        {friend.map(fd => (
-          <li>{fd.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Friends;
